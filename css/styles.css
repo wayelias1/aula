@@ -1,0 +1,268 @@
+/*-----Index-----*/
+.bienvenida{
+    font-family: Courgette;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+.cont-bienvenida{
+    width: 100%;
+    box-shadow: 0 -170px 100px rgba(91, 138, 195, 0.32);
+    background: #eeeff3;
+}
+/*----Header-----*/
+.navbar{
+    background: radial-gradient(#5CA3EC,#4985B7);
+    border-bottom: 2px solid #4985B7
+}
+.nav-item a{
+	color: #fff ;
+}
+.icon-menu{
+    font-size: 1.5rem;
+}
+.navbar-toggler{
+    line-height: 1.5;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.navbar-collapse{
+    transition: all 0.5s ease 0s;
+}
+/*----Login content-----*/
+.title{
+    text-transform: uppercase;
+}
+.container{
+    box-shadow: 0 -150px 100px rgba(0, 0, 0, 0.3);
+}
+.login-content input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #000;  
+    outline: none;
+    padding-left: 1.7rem;
+    padding-bottom: 0;
+}
+.login-content input:focus{
+    border-color: #569add;
+    box-shadow: none;
+}
+.login-content .btn{
+    text-transform: uppercase;
+    background: #b4ec5a;
+    border-radius: 0;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+.login-content .btn:hover{
+    background: #6a8a36;
+    color: #fff;
+}
+.login-content .btn:focus{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background: #000000 !important;
+    color: #fff;
+}
+.form-group{
+    position: relative;
+}
+.form-group i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 4px;
+    font-size: 1.3rem;
+}
+/*---------Tabla de tareas---------*/
+.materia{
+    width: 80%;
+    height: 200px;
+    margin: 2% auto;
+}
+.mfondo{
+    width: 100%;
+    height: 200px;
+    border-radius: 18px;
+    background: url(../img/fondotabla.jpg)no-repeat;
+    background-size: cover; 
+}
+.notific{
+    border-radius: 18px;
+    width: 70%;
+    margin: 2% auto;
+    border: 1px solid #b3b0b0;
+    padding: 2rem;
+}
+.publicador{
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.publicador:hover{
+    color: #4285f4;
+}
+
+/*-------header del chat y partes del chat---------*/
+header, .boxchat{
+    background: radial-gradient(#5CA3EC,#3C8CCE);
+}
+.active{
+    background: #41C7EF;
+}
+#chat{
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    height: 96%;
+}
+#caja-chat{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    border: 1px solid #4391d4;
+    margin: auto;
+}
+.form-chat{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    left: inherit;
+}
+
+#chat::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+#chat::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+#chat::-webkit-scrollbar-thumb {
+  background: #787878;
+  border: 0px none #ff1a1a;
+  border-radius: 50px;
+}
+#chat::-webkit-scrollbar-thumb:hover {
+  background: #5c5c5c;
+}
+#chat::-webkit-scrollbar-thumb:active {
+  background: #4d4d4d;
+}
+#chat::-webkit-scrollbar-track {
+  background: #d9d9d9;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+#chat::-webkit-scrollbar-track:hover {
+  background: #d1d1d1;
+}
+#chat::-webkit-scrollbar-track:active {
+  background: #c7c7c7;
+}
+#chat::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media (max-height: 710px){
+
+}
+
+
+
+
+
+nav ul li, .icon-search{
+     transition: all .4s ease;
+}
+nav ul .nav-item:hover,  .icon-search:hover{
+    background: #41C7EF;
+    /*border-radius: 4px;*/
+    cursor: pointer;
+}
+.info{
+    background: none!important;
+}
+.info:hover{
+    text-shadow: 0px 0px 10px rgba(250, 250, 250, 1);
+}
+.nav-home ul li{
+    padding: 1% 2% 0 2%;
+    margin-left: 4%;
+}
+#open-m{
+    display: none;
+}
+#open-m, #close-m{
+    background: none;
+    border: none;
+}
+#close-m{
+    display: none;
+}
+#nav-movil{
+    transition: all 1.3s ease;
+}
+.movil-layout{
+    position: absolute;
+    right: 0;
+}
+.movil-layout i{
+    font-size: 1.5rem;
+}
+.busca{
+    height: 1.6rem;
+}
+.boton{
+    font-size: 1.1rem;
+}
+.boton:hover{
+    background: #43C7EF !important;
+    border-radius: 50%;
+}
+.box-add{
+    border: 2px solid gray;
+    width: 20rem;
+}
+.box-add ul{
+    padding: 0;
+    list-style: none;
+}
+.datos-chat{
+    border: 1px solid gray;
+    
+}
+/*----Responsive-----*/
+@media (max-width: 960px){
+    #open-m{
+        display: block;
+    }
+    #nav-movil{
+        display: none;
+    }
+    .mostrar #nav-movil{
+        display: block;
+        background: #2a2d58;
+    }
+    .mostrar #close-m{
+        background: #2a2d58;
+        color: #fff;
+    }
+}
+@media (max-width: 331px){
+    .navbar-brand img{
+        width: 180px;
+    }
+     .bienvenida{
+        font-size: 60px;
+    }
+}

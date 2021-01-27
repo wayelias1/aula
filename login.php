@@ -1,9 +1,9 @@
-<?php
-    include_once('conexion/validacion.php');
-    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php
+    include_once('conexion/validacion.php');
+    ?>
      <?php 
         include "vistas/header.php";
     ?>
